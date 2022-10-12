@@ -1,0 +1,348 @@
+$color-heading:#001c55;
+$color-bg:#edf9fe;
+.Main_Navbar
+{
+    background-color: #edf9fe;
+    .logoName
+    {
+        font-weight: 400 !important;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 20%;
+    }
+}
+.Main_Home
+{
+    background-color: #edf9fe ;
+}
+.Image_Col
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Main_Col
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Text_Col
+{
+    text-align: start;
+    color:#001c55;
+    width: 80%;
+    h1
+    {
+        font-size: 60px;
+        font-weight: 700;
+    }
+    h3
+    {
+        font-family:  'Sans Bold Italic';
+    }
+    p
+    {
+        color: #7f8daa;
+        line-height: 2;
+        font-size: 20px;
+    }
+    i
+    {
+        font-size: 30px;
+    }
+    a
+    {
+        background-color: none;
+    }
+    .Icon_div
+    {
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.Second_Row
+{
+    h1
+    {
+        text-align: center;
+        font-size: 50px;
+        color:  $color-heading;
+    }
+    .Second_Col
+    {
+        h1
+        {
+            font-size: 50px;
+        }
+        i
+        {
+            font-size: 50px;
+        }
+        .fa-html5
+        {
+            color: #e34f26;
+        }
+        .fa-css3-alt
+        {
+            color: #1572b6;
+        }
+        .fa-react
+        {
+            color: #61dafb;
+        }
+        .fa-square-js
+        {
+            color: #f7df1e;
+        }
+         .fa-sass
+         {
+            color:#cc6699
+         }      
+         .fa-npm
+         {
+            color: #cb3837 ;
+         }       
+        .Icon_div
+        {
+            display: flex;
+            justify-content: space-around;
+        }
+        .div_content
+        {
+            text-align: start;
+            padding: 15px;
+            i
+            {
+                font-size: 20px;
+            }
+            p
+            {
+                font-size: 20px;
+                color:#9eabc2 ;
+            }
+        }
+    }
+}
+.fa-bolt
+{
+font-size: 20px;
+    color: #ffc83d;
+}
+.tooltip-overlay
+{
+    background-color: none !important;
+}
+.last_Content
+{
+    text-align: center;
+    color: #7f8daa;
+    font-weight: 500;
+    i
+    {
+        color: red;
+    }
+}
+.eduImg
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Education
+{
+    background-color: #edf9fe;
+}
+.Edu_content
+{
+    color: $color-heading;
+    // border: 1px solid red;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1
+    {
+        font-size: 50px;
+    }
+    p 
+    {
+        font-size: 25px;
+    }
+    i
+    {
+        font-size: 20px;
+    }
+    .Icon_div
+    {
+        // border: 1px solid red;
+        width: 15%;
+        display: flex;
+        justify-content: space-around;
+        i
+        {
+            font-size: 30px;
+        }
+    }
+}
+.Second_Row_Content
+{
+    text-align: center;
+    color: $color-heading;
+}
+.Col_Content
+{
+    // border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    .img_div
+    {
+        // border: 1px solid green;
+        display: flex;
+        align-items: center;
+    }
+    .card_img {
+        border: 1px solid #688191;
+        border-radius: 100%;
+        padding: 10px;
+    }
+    
+}
+
+.Col_Header
+{
+    font-size: 35px;
+    color: $color-heading;
+    p
+    {
+        font-size: 20px;
+        display: inline;
+    }
+}
+.CardHeader
+{
+    background-color: #85b7d5;
+    .Stream
+    {
+       font-weight: 600;
+    }
+}
+.Con_Content1
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    // border: 1px solid red;
+    width: 80%;
+    h1,p
+    {
+        color: $color-heading;
+        text-align: center;
+    }
+}
+.css-1dxe8h0
+{
+    display: flex;
+    justify-content: center;
+}
+.row
+{
+    margin-right: 0px !important;
+}
+.Exp_Content
+{
+    width: 80%;
+    h1,p 
+    {
+        color: $color-heading;
+        text-align: center;
+    }
+}
+.Con_Content
+{
+    width: 100%;
+    // border: 1px solid red;
+    text-align: center;
+        h1,
+        p {
+            color: $color-heading;
+            text-align: center;
+        }
+}
+.Exp_Col
+{
+    display: flex;
+    align-items: center;
+    // border: 1px solid red;
+}
+.exp_p
+{
+    font-size: 15px;
+    color:#a3a5a7 !important;
+    font-weight: 600;
+}
+.Con_Col
+{
+    // border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Experience_Row
+{
+    background-color: $color-bg ;
+}
+.Second_Row_Exp
+{
+    display: flex;
+    justify-content: center;
+    img
+    {
+        float: right;
+    }
+}
+.Second_Row
+{
+    display: flex;
+    justify-content: space-evenly;
+    // border: 1px solid red;
+    margin-top: 30px;
+    color: $color-heading;
+    .Sec_Card
+    {
+        background-color: #a8d6eb;
+        transition: all 0.5s;
+    }
+    .Sec_Card:hover
+    {
+        background-color: #a6e1fa;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
+.my-5
+{
+    margin-bottom: 0px !important;
+}
+.last_Content_Edu
+{
+    text-align: center;
+        color: #7f8daa;
+        font-weight: 500;
+    
+        i {
+            color: red;
+        }
+    margin-top: 20px;
+}
+.contact_form
+{
+    // border:1px solid red;
+    font-weight: bold;
+    color: #7f8daa;
+    text-align: start;
+    Button
+    {
+        float: right;
+    }
+}
